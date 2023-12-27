@@ -1,29 +1,63 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Flutter Xylophone App
+
+<img width="358" alt="xylophone-flutter" src="https://github.com/kcchawla85/xylophone_app/assets/73349039/42933bad-dd6a-4857-89db-2d9d6ab786b6">
 
 
-# Xylophone 🎹
+This repository contains the source code for a simple Xylophone application developed using Flutter and Android Studio. The Xylophone app allows users to play different musical notes by tapping on colorful bars displayed on the screen. It's a fun and interactive way to create music on your mobile device.
 
-## Our Goal
+## Features
 
-In this tutorial we will be diving into more Dart programming concepts such as lists, loops, functions and much much more. By the end of this modules, you should be conformable using Flutter packages and building repeated widgets.
+- Play musical notes by tapping on the colorful bars.
+- Each bar represents a different musical note.
+- Enjoy a visually appealing and user-friendly interface.
 
 
-## What you will create
 
-We’re going to make a music app that plays Xylophone sounds. For every Beethoven out there, this will let you unleash your musical talent where ever you are. 
+## Getting Started
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/xylophone-flutter.png)
+To run the Xylophone app on your local machine, follow these steps:
 
-## What you will learn
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:kcchawla85/xylophone_app.git
+   ```
 
-- How to incorporate open source libraries of code into your project using Flutter Packages.
-- How to play sound on both iOS and Android.
-- How to generate repeated user interface Widgets.
-- How to use Dart functions that can take input arguments as well as return an output.
-- What is the difference between var, const and final in Dart.
-- How to use Dart lists.
-- How to loop through code using a Dart for loop.
+2. **Navigate to the project directory:**
+   ```bash
+   cd flutter-xylophone-app
+   ```
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+3. **Open the project in Android Studio:**
+   - Open Android Studio.
+   - Click on "File" > "Open" and select the cloned project directory.
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+4. **Run the app:**
+   - Connect a physical device or start an emulator.
+   - Click on the "Run" button in Android Studio.
+
+## Dependencies
+
+This project uses the following dependencies:
+
+- [flutter](https://flutter.dev/)
+- [audioplayers](https://pub.dev/packages/audioplayers)
+
+These dependencies are automatically added to the project when you run it for the first time.
+
+## Contributing
+
+If you would like to contribute to the development of this Xylophone app, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
+
+
+## Acknowledgments
+
+- The Flutter team for providing an amazing framework for building beautiful cross-platform applications.
+- The authors of the `audioplayers` package for making it easy to work with audio in Flutter.
+
+Feel free to explore, modify, and use this Xylophone app as you wish! If you have any questions or suggestions, please open an issue. Enjoy making music with Flutter! 🎶
